@@ -1,0 +1,17 @@
+pkgbase = xavs2
+	pkgdesc = Open-Source encoder of AVS2-P2/IEEE1857.4 video coding standard
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/pkuvcl/xavs2/
+	arch = x86_64
+	license = GPL
+	makedepends = yasm
+	depends = glibc
+	depends = l-smash
+	provides = libxavs2
+	conflicts = libxavs2
+	replaces = libxavs2
+	source = xavs2-1.4.tar.gz::https://github.com/pkuvcl/xavs2/archive/1.4.tar.gz
+	sha512sums = 2dd93fe94b85ba019adc808b6bc348a79fcecb812a1a9bfb7f67d5274c29fedbee87de3b2307627aa851d813eb142b270c235e8e17fee4e227f84530f9ce0926
+
+pkgname = xavs2
